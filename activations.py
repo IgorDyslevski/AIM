@@ -7,7 +7,7 @@ def sigmoid(x: np.array) -> np.array:
 def relu(x: np.array) -> np.array:
     return np.maximum(0, x)
 
-def softmax(x: np.array) -> np.array:
+def hardmax(x: np.array) -> np.array:
     return x / np.sum(x)
 
 def tanh(x: np.array) -> np.array:
